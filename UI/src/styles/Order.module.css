@@ -1,0 +1,221 @@
+.container {
+    min-height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+   }
+   
+   .title {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: monospace;
+    margin: 20px 0;
+    color: #C58940;
+    margin-left: 50px;
+    letter-spacing: 0px;
+   }
+   
+   .buttonContainer {
+    width: 40%;
+    margin-left: 50px;
+    text-decoration: underline;
+   
+   }
+   
+   .orderItem {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px
+   }
+   
+   .button {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0px 10px;
+    border-radius: 10px;
+   }
+   
+   .table {
+    width: 100%;
+    border-spacing: 20px;
+    margin-bottom: 50px
+   }
+   
+   .right {
+    flex: 2;
+   }
+   
+   .left {
+    flex: 1;
+    max-height: 300px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+   }
+   
+   .tr {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   
+   .imgContainer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+   }
+   
+   .colorContainer {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+   }
+   
+   .tdI {
+    display: flex;
+    justify-content: center;
+   }
+   
+   .total {
+    font-size: 20px;
+    font-weight: 500;
+   }
+   
+   .address {
+    display: flex;
+    align-items: center;
+   }
+   
+   .statusContainer {
+    display: flex;
+    width: 90%;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+   }
+   
+   
+   .leftText {
+    font-size: 20px;
+   }
+   
+   .done {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   }
+   
+   .inProgress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    animation: inProgress 1s ease infinite alternate;
+   }
+   
+   @keyframes inProgress {
+    from {
+     opacity: 0;
+    }
+   
+    to {
+     opacity: 1;
+    }
+   }
+   
+   .unDone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.3;
+   }
+   
+   .unDone .checkedImg,
+   .inProgress .checkedImg {
+    opacity: 0;
+   }
+   
+   
+   
+   .leftTitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+   }
+   
+   .hr {
+    width: 90%;
+    margin: 50px;
+    background-color: black;
+   }
+   
+   @media only screen and (max-width:380px) {
+    .container {
+     padding-right: 0px;
+    }
+   
+    .title {
+     font-size: 23px;
+    }
+   
+    .buttonContainer {
+     width: 90%;
+     margin-left: 10px;
+    }
+   
+    .orderItem {
+     flex-direction: column;
+     align-items: center;
+    }
+   
+    .table {
+     border-spacing: 5px;
+    }
+   
+    .imgContainer {
+     width: 80px;
+     height: 80px
+    }
+   
+    .colorContainer {
+     width: 20px;
+     height: 20px
+    }
+   
+    .total {
+     font-size: 18px;
+    }
+   
+    .left {
+     max-height: auto;
+     padding: 20px 60px
+    }
+   
+    .leftTitle {
+     font-size: 15px;
+    }
+   
+    .leftText {
+     font-size: 15px;
+    }
+   
+   
+   
+    .statusContainer {
+     padding: 5px 10px;
+     margin: 20px 0
+    }
+   
+    .hr {
+     margin: 30px 10px;
+    }
+   
+   }

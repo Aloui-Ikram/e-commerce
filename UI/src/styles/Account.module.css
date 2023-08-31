@@ -1,0 +1,175 @@
+.Container {
+    min-height: calc(100vh - 200px);
+    padding: 20px 100px;
+    background-color: #FAF8F1;
+    border:none;
+    border-radius: 4px;
+   
+   }
+  
+   .title {
+    font-weight: 500;
+    font-family: 'Helvetica Neue';
+    font-size: 35px;
+   
+    color: #C58940;
+    text-shadow: 2px 2px #FFFFFF;
+    letter-spacing: 3px;
+   }
+   
+   .wrapper {
+    padding-top: 20px;
+    display: flex;
+   }
+   
+   .left {
+    flex: 1
+   }
+   
+   .right {
+    flex: 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .ul {
+    list-style: none;
+    padding: 0px;
+   }
+   
+   .li {
+    margin: 10px 0;
+    width: 60%;
+    padding: 5px 0;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+   }
+   
+   .subTitle {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    width: 90%;
+   }
+   
+   .detailItemTitle {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+   }
+   
+   .hr {
+    width: 90%;
+   }
+   
+   .form {
+    padding: 10px;
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   
+   .radioLign {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 5px 0;
+
+   }
+   
+   .radioLabel {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+
+   }
+   
+   .radioInput {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+   }
+   
+   .delete {
+    color: red;
+    cursor: pointer;
+   }
+   
+   .label {
+    font-weight: 500;
+   }
+   
+   .input {
+    padding: 10px 5px;
+    background-color: rgb(230, 224, 217);
+    border:none;
+    border-radius: 4px;
+    
+   
+   }
+   
+   .inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 5px 0;
+
+   }
+   
+   .buttonContainer {
+    width: 100%;
+    margin-top: 10px;
+    
+   }
+   
+   .button {
+    padding: 10px 50px;
+    background-color: #C58940;
+    color:#FFFFFF ;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+   }
+   
+   @media only screen and (max-width:380px) {
+    .Container {
+     padding: 10px 0px
+    }
+   
+    .title {
+     text-align: center;
+     font-size: 23px;
+    }
+   
+    .wrapper {
+     flex-direction: column;
+    }
+   
+    .ul {
+     display: flex
+    }
+   
+    .li {
+     margin: 10px 10px
+    }
+   
+    .left {
+     width: 100%
+    }
+   
+    .form {
+     width: 90%
+    }
+   }
