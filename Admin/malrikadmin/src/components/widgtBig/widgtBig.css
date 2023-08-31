@@ -1,0 +1,48 @@
+.widgetBig {
+  flex: 2;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+}
+
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.widgetLgTh {
+  text-align: left;
+}
+
+.widgetLgUser {
+ 
+  align-items: center;
+  font-weight: 600;
+}
+
+.widgetLgButton {
+  padding: 5px 9px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.widgetLgButton.ontheway {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+
+.widgetLgButton.delivered {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+
+.widgetLgButton.pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}
