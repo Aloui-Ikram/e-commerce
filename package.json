@@ -1,7 +1,4 @@
- "scripts": {
-  "start": "node index.js",
-},
-
+{
   "dependencies": {
 
 
@@ -13,3 +10,4 @@
     "redux-persist": "^6.0.0"
   }
 
+}
