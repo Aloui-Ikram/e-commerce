@@ -1,7 +1,7 @@
  "scripts": {
   "start": "node index.js"
 },
-{
+
   "dependencies": {
 
 
@@ -12,4 +12,4 @@
     "recharts": "^2.5.0",
     "redux-persist": "^6.0.0"
   }
-}
+
