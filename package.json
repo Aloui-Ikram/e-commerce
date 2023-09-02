@@ -1,8 +1,6 @@
 {
   "dependencies": {
-    "scripts": {
-  "start": "node index.js"
-},
+
 
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.2",
