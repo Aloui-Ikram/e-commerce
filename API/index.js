@@ -19,17 +19,7 @@ const productRoute = require("./routes/product")
 const orderRoute = require("./routes/order")
 const cartRoute = require("./routes/cart")
 const stripeRoute = require("./routes/stripe")
-const http = require('http');
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello, World!\n');
-});
-
-const port = process.env.PORT || 3000;
-server.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
 //connect our databases
 mongoose.connect('mongodb://127.0.0.1:27017/ShopDB')
 .then(()=>console.log("DB conection successfull"))
